@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Time complexity analysis";
+    cout<<"Time Complexity Analysis";
     return 0;
 }
