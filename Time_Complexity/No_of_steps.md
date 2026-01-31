@@ -9,7 +9,7 @@ Operations include:
 - Array operations: insertion, deletion, shifting
 - Any computational operation the algorithm executes
 
-**Example 1:**
+
 ```cpp
 int sum = a + b;        // 1 operation (addition)
 if(x > y)              // 1 operation (comparison)
@@ -24,6 +24,7 @@ The total number of steps tells us how much work the algorithm does.
 ---
 Consider following code snippets:
 
+**Example 1:**
 ```cpp
 cout << "Enter two numbers"; // Line 1: 1 operation (output)
 cin >> num1 >> num2;         // Line 2: 2 operations (two inputs)
@@ -160,7 +161,7 @@ If f(n) = 3n + 5:
 **The key point:** For large enough inputs, f(n) grows no faster than g(n) (ignoring constants).
 
 
-## The Takeaway : Relationship between number of steps and Big Oh
+# The Takeaway : Relationship between number of steps and Big Oh
 ![No_of_steps vs Big Oh](assets/BIG_O_03.png)
 
 where f(n) is number of steps and O is time complexity.
