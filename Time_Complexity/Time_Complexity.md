@@ -229,3 +229,7 @@ fib(50) = over 1 trillion calls (would take forever).
 **O(2ⁿ) is impractical - avoid it by using better techniques like storing results.**
 
 ---
+
+
+To sum up, **Big O** helps us predict which algorithms will handle growth efficiently 
+and which will collapse under increasing data.
