@@ -91,6 +91,16 @@ As we know that Array ADT is fundamentally a class so it needs a constructor. In
 - Making the dynamic array be ```new``` keyword 
 - allocating size 
 - initializing length to 0
+```cpp
+    ArrayADT(int size){
+        capacity=size;
+        this->length=0;
+        arr=new T [size];
+        cout<<"Array of size "<<size<<" created!"<<endl;
+    }
+
+
+```
 
 ## Table of Contents
 1. [append()](#1-arrayappend)
