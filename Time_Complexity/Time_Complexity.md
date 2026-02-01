@@ -8,7 +8,7 @@ In simple words , the rate at which the number of operations grows as the input 
 Or for a flash note : Big-O answers this question:
 “How does the algorithm scale as input grows?”
 
-![Big O complexity chart](assets/BIG_O_01.png)
+![Big O complexity chart](../assets/BIG_O_01.png)
 
 In this diagram we can see that how each time complexity **"Scales"** as the input size or eventually the number of operations increases. We will discuss major time complexities after we get over this major misconception. 
 
@@ -229,7 +229,7 @@ fib(50) = over 1 trillion calls (would take forever).
 **O(2ⁿ) is impractical - avoid it by using better techniques like storing results.**
 
 ---
-![Final Notes](assets/BIG_O_02.png)
+![Final Notes](../assets/BIG_O_02.png)
 
 ---
 

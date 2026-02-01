@@ -162,7 +162,7 @@ If f(n) = 3n + 5:
 
 
 # The Takeaway : Relationship between number of steps and Big Oh
-![No_of_steps vs Big Oh](assets/BIG_O_03.png)
+![No_of_steps vs Big Oh](../assets/BIG_O_03.png)
 
 where f(n) is number of steps and O is time complexity.
 
