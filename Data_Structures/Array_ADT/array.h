@@ -207,7 +207,7 @@ public:
 
     bool isSorted(){
         for(int i=0;i<length-1;i++){
-            iff(arr[i] > arr[i+1]){
+            if(arr[i] > arr[i+1]){
                 return false;
             }
         }
@@ -234,5 +234,5 @@ public:
         }
         return true;
     }
-    
+
 };
